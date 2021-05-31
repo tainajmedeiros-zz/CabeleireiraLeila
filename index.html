@@ -2,41 +2,91 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Cabeleireira Leila</title>
-        <link rel="stylesheet" href="style-home.css">
-    </head>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">  
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">    </head>
     <body>
         <header>
-            <h1 class="title-principal">Cabeleireira Leila</h1>
+            <div class="box">
+                <h1><img src="images/logo.png"></h1>
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <img id="banner"" src="images/banner.jpeg">
-        <div class="principal">
-            <h2 class="title-center">Sobre a Cabeleireira Leila</h2> 
 
-            <p>Localizada no coração da cidade a <strong>Cabeleireira Leila</strong> traz para o mercado o 
-                que há de melhor para o seu cabelo. Fundada em 2019, a Cabeleireira Leila já é destaque na cidade
-                e conquista novos clientes a cada dia.</p> 
+        <img class="banner"" src="images/banner.jpeg">
+
+        <main>
+            <section class="principal">
+                <h2 class="title-principal">Sobre a Cabeleireira Leila</h2> 
+    
+                <img class="about" src="images/about.jpg" alt="Utensílios da Cabeleireira">
+
+                <p>Localizada no coração da cidade a <strong>Cabeleireira Leila</strong> traz para o mercado o 
+                    que há de melhor para o seu cabelo. Fundada em 2019, a Cabeleireira Leila já é destaque na cidade
+                    e conquista novos clientes a cada dia.</p> 
+            
+                    <p id="mission">
+                        <em>Nossa missão é: 
+                            <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>
+                        .</em>
+                    </p>
+            
+                    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                    O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </section>
+    
+            <section class="map">
+                <h3 class="title-principal">Nosso estabelecimento</h3>
+                <p>Nosso estabelecimento está localizado no coração da cidade</p>
+                <div class="map-content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.195834083705!2d-46.6580705843422!3d-23.561409067480792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1622229673006!5m2!1spt-BR!2sbr" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <h3 class="title-principal">Benefícios</h3>
+
+                <div class="benefits-content">
+                    <ul class="benefits-list">
+                        <li class="itens">Atendimeto aos clientes</li>
+                        <li class="itens">Espaço diferenciado</li>
+                        <li class="itens">Localização</li>
+                        <li class="itens">Profissionais qualificados</li>
+                        <li class="itens">Pontualidade</li>
+                        <li class="itens">Limpeza</li>
+                    </ul><img class="imgbenefits" src="images/benefits.jpeg">
+                </div>
+
+                <div class="video">
+                    <iframe 
+                        width="100%" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/_JoRRHvivI0" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+        </main>
         
-                <p id="mission">
-                    <em>Nossa missão é: 
-                        <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>
-                    .</em>
-                </p>
-        
-                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
-
-        <div class="benefits">
-            <h3 class="title-center">Benefícios</h3>
-            <ul>
-                <li class="itens">Atendimeto aos clientes</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Profissionais qualificados</li>
-            </ul>
-
-            <img class="imgbenefits" src="images/benefits.jpeg">
-        </div>
+        <footer>
+            <img src="images/copyright.png">
+            <p class="copyright">&copy; Copyrigth Cabeleireira Leila</p>
+        </footer>
     </body>
 </html>
