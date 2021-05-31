@@ -49,6 +49,7 @@ The project was created using the following technologies:
 ### Desktop Version
 
 _Home Page_
+
 ![desktop-home-one][desktop-home-one]
 
 ![desktop-home-two][desktop-home-two]
@@ -56,12 +57,15 @@ _Home Page_
 ![desktop-home-three][desktop-home-three]
 
 _Product Page_
+
 ![desktop-product-one][desktop-product-one]
 
 _Product Page with interaction_
+
 ![desktop-product-two][desktop-product-two]
 
 _Contact Page_
+
 ![desktop-contact-one][desktop-contact-one]
 
 ![desktop-contact-two][desktop-contact-two]
@@ -69,6 +73,7 @@ _Contact Page_
 ### Mobile Version
 
 _Home Page_
+
 ![mobile-home-one][mobile-home-one]
 
 ![mobile-home-two][mobile-home-two]
@@ -76,14 +81,17 @@ _Home Page_
 ![mobile-home-three][mobile-home-three]
 
 _Product Page_
+
 ![mobile-product-one][mobile-product-one]
 
 ![mobile-product-two][mobile-product-two]
 
 _Product Page with interaction_
+
 ![mobile-product-three][mobile-product-three]
 
 _Contact Page_
+
 ![mobile-contact-one][mobile-contact-one]
 
 ![mobile-contact-two][mobile-contact-two]
